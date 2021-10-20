@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    height: 50vh;
+    width: 100vw;
+    background: rgb(255, 220, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    border-bottom: 2px solid rgb(190, 94, 94);
+    color: rgb(190, 94, 94);
+}
+
+.text-header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding-top: 0.4rem;
+    color: rgb(190, 94, 94);
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button{
+    min-height: 7vh;
+    background: peachpuff;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.8rem;
+
+}
+
+form button{
+    color: rgb(226, 178, 136);
+}
+
+.task-input{
+    margin: 1rem;
+    width: 80vw;
+}
+
+.task-input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(226, 178, 136);
+}
+
+.task-container{
+    display: flex;
+    justify-content: center;
+}
+
+.task-list{
+    list-style: none;
+}
+
+.task-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.task-div{
+    min-width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 1rem;
+    background: blanchedalmond;
+    border-radius: 0.5rem;
+    
+}
+
+.task-div li{
+    flex: 1;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.finished-btn, .delete-btn{
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background: lightgreen;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.delete-btn{
+    background: lightsalmon;
+    margin-left: 0.5rem;
+}
+
+.fa-check, .test{
+    pointer-events: none;
+}
+
+.completed{
+    background: rgb(184, 228, 184);
+}
+
+
+.footer{
+    height: 40vh;
+    background: burlywood;
+}
