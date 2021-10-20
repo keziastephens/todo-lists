@@ -16,6 +16,30 @@
     margin-bottom: 3rem;
 }
 
+.navnav{
+    height: 10vh;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navigation-items{
+    color: rgb(143, 73, 85);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.branding{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .header{
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
@@ -112,7 +136,7 @@ form button{
 }
 
 .completed{
-    background: rgb(184, 228, 184);
+    background: rgb(205, 236, 205);
 }
 
 

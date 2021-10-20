@@ -56,10 +56,10 @@ function deleteTask(e){
         // taskItem.remove();
     }
 
-    // if(taskItem.classList[0] === "finished-btn"){
-    //     const task = taskItem.parentElement;
-    //     task.classList.toggle("completed");
-    // }
+    if(taskItem.classList[0] === "finished-btn"){
+        const task = taskItem.parentElement;
+        task.classList.toggle("completed");
+    }
 }
 
 
